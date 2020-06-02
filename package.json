@@ -1,0 +1,28 @@
+{
+  "name": "uber-test",
+  "version": "1.0.0",
+  "description": "",
+  "author": "aleks.matvieiev@gmail.com",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.10.3",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "nuxt": "^2.0.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2"
+  }
+}
